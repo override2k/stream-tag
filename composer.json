@@ -1,0 +1,29 @@
+{
+    "name": "overdesign/stream-tag",
+    "description": "Stram Tag Library for Icy & Icecast Servers",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Robledo",
+            "email": "overdesign@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Overdesign\\StreamTag\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Overdesign\\StreamTag\\Test\\": "test/"
+        }
+    }
+}
